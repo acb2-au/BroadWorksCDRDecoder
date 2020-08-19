@@ -8,6 +8,7 @@
 ## CHANGELOG:
 ##
 ## 20200819 - Import
+## 20200819 - Updated to CDR Schema 23.0
 ##
 
 { 
@@ -431,4 +432,43 @@ BEGIN {
 	cdrFieldName[412]="collaborate.roomType"
 	cdrFieldName[413]="btluExceeded"
 	cdrFieldName[414]="enterpriseTrunkCapacityExceeded"
+	cdrFieldName[415]="customInfoInPCV"
+	cdrFieldName[416]="receivedRoute"
+	cdrFieldName[417]="alternateCarrierSelection.selectScheme"
+	cdrFieldName[418]="receivedChargingVector"
+	cdrFieldName[419]="phoneListCallingName"
+	cdrFieldName[420]="receivedTimeZone"
+	cdrFieldName[421]="userEquipmentInfo"
+	cdrFieldName[422]="chargingGroupId"
+	cdrFieldName[423]="incomingReason"
+	cdrFieldName[424]="outgoingReason"
+	cdrFieldName[425]="requestedPartyAddress"
+	cdrFieldName[426]="privateUserIdentity"
+	cdrFieldName[427]="musicOnHold.invocationTime"
+	cdrFieldName[428]="locationNetwork"
+	cdrFieldName[429]="e911PsapCallbackAttempt"
+	cdrFieldName[430]="accessNetworkInfoFromRegister"
+	cdrFieldName[431]="directRoute.directRouteNumber"
+	cdrFieldName[432]="imrnFromXsi"
+	cdrFieldName[433]="outgoingPrivacy"
+	cdrFieldName[434]="pushNotificationRetrieve.invocationTime"
+	cdrFieldName[435]="pushNotificationRetrieve.facResult"
+	cdrFieldName[436]="scc.mscIdentity"
+	cdrFieldName[437]="callParked.parkedAgainst"
+	cdrFieldName[438]="callParkRetrieve.retrievedAgainst"
+	cdrFieldName[439]="callPickup.pickedUpUser"
+	cdrFieldName[440]="directedCallPickup.pickedUpUser"
+	cdrFieldName[441]="directedCPUBargeIn.bargedInUser"
+	cdrFieldName[442]="outgoingTrunkGroup"
+	cdrFieldName[443]="getsOriginationType"
+	cdrFieldName[444]="getsPriorityLevel"
+	cdrFieldName[445]="scc.cellIdentity"
+	cdrFieldName[446]="scc.sectorIdentity"
+	cdrFieldName[447]="receivedCalledAssertedIdentity"
+	cdrFieldName[448]="reseller"
+	cdrFieldName[449]="imsi"
+	cdrFieldName[450]="callReferenceNumber"
+	cdrFieldName[451]="vlrNumber"
+	cdrFieldName[452]="automaticCollectCall.callType"
+	cdrFieldName[453]="automaticCollectCall.connectTime"
 }
