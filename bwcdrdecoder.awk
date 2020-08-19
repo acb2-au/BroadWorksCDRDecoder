@@ -2,7 +2,7 @@
 ##
 ## BroadWorks CDR Decoder
 ##
-## Adapted from version published by Mark Lindsay:
+## Adapted from version published by Mark Lindsey:
 ## https://www.ecg.co/blog/119-broadworks-cdr-decoder
 ##
 ## CHANGELOG:
