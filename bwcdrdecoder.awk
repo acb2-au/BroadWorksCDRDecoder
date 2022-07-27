@@ -10,6 +10,7 @@
 ## 20200819 - Import
 ## 20200819 - Updated to CDR Schema 23.0
 ## 20220719 - Minor improvement for escaped comma handling
+## 20220727 - Updated to CDR Schema 24.0
 ##
 
 { 
