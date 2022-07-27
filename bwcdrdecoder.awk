@@ -10,6 +10,7 @@
 ## 20200819 - Import
 ## 20200819 - Updated to CDR Schema 23.0
 ## 20220719 - Minor improvement for escaped comma handling
+## 20220727 - Updated to CDR Schema 24.0
 ##
 
 { 
@@ -473,4 +474,16 @@ BEGIN {
     cdrFieldName[451]="vlrNumber"
     cdrFieldName[452]="automaticCollectCall.callType"
     cdrFieldName[453]="automaticCollectCall.connectTime"
+    cdrFieldName[454]="terminatingClosedUserGroup.invocationTime"
+    cdrFieldName[455]="terminatingClosedUserGroup.result"
+    cdrFieldName[456]="userType"
+    cdrFieldName[457]="ccCoachingBI.invocationTime"
+    cdrFieldName[458]="ccCoachingBI.facResult"
+    cdrFieldName[459]="groupName"
+    cdrFieldName[460]="userExternalId"
+    cdrFieldName[461]="serviceProviderExternalId"
+    cdrFieldName[462]="resellerExternalId"
+    cdrFieldName[463]="localGatewayBreakoutIndicator"
+    cdrFieldName[464]="btluBursting"
+    cdrFieldName[465]="stirShaken.verstat"
 }
